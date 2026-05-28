@@ -1,0 +1,7 @@
+### 📋 Casos de Teste - Formato Tradicional
+
+| ID | Cenário / Objetivo | Pré-condições | Passos para Execução (Steps) | Resultado Esperado | Resultado Obtido | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **CT-001** | Fazer login com sucesso | • Usuário possui e-mail e senha válidos cadastrados no sistema.<br>• Estar na página de autenticação. | **1.** Digitar um e-mail válido no campo correspondente.<br>**2.** Digitar a senha válida correspondente.<br>**3.** Clicar no botão "Sign-in". | Login realizado com sucesso e redirecionamento para a Dashboard principal. | O mesmo que o resultado esperado. | ✅ Passou |
+| **CT-002** | Fazer login com email ou senha inválidas | não é necessário | **1.** Digitar um e-mail inválido no campo correspondente.<br>**2.** Digitar a senha inválida.<br>**3.** Clicar no botão "Sign-in" | Aviso de erro com email ou senha errada. | O mesmo que o resultado esperado. | ✅ Passou |
+| **CT-003** | Recuperar senha com email válido | • Usuário possui cadastro no sistema. | **1.** Clicar no campo "Forget the password?".<br>**2.** Ao ir para a outra página, informe um email válido.<br>**3.** Clicar no botão "submit" <br>**4.** acessar o email válido **5.** checar a mensagem de recuperação de senhas e seguir o protocolo para trocar. | Fazer a modificação da senha pelo email enviado | O mesmo que o resultado esperado. | ✅ Passou |
